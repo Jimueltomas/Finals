@@ -1,0 +1,78 @@
+.container{
+	display:grid;
+	height:100vh;
+	grid-template-columns: repeat(7,95px);
+	grid-template-rows: repeat(7,0.05fr); 
+	justify-content: center;
+	grid-gap: 1px;
+	font-size: 16px;
+	text-align: center;
+	grid-template-areas:
+	"Month Month Month Month Month Month Month"
+	"week1 week2 week3 week4 week5 week6 week7"
+	"day day day day day day1 day2";
+	
+		
+	
+}
+#Month{
+	background: #006992;
+    grid-area: Month;
+	font-style: italic;
+}
+#week1{
+	background:#298AAA;
+	grid-area: week1;
+	font-weight: bold;
+}
+
+#week2{
+	background: #298AAA;
+	grid-area: week2;
+	font-weight: bold;
+
+}
+
+#week3{
+	background: #298AAA;
+	grid-area: week3;
+	font-weight: bold;
+
+}
+
+#week4{
+	background: #298AAA;
+	grid-area: week4;
+	font-weight: bold;
+
+	
+}
+
+#week5{
+	background: #298AAA;
+	grid-area: week5;
+	font-weight: bold;
+
+
+}
+
+#week6{
+	background: #298AAA;
+	grid-area: week6;
+	font-weight: bold;
+
+}
+
+#week7{
+	background: #298AAA;
+	grid-area: week7;
+	font-weight: bold;
+}
+
+#day{
+	grid-area: day;
+}
+#day2{
+	grid-area: day2;
+	background: #A2EEF2;
+}
