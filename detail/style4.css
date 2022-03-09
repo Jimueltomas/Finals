@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+.main{
+	width: 1440px;
+	height: 831px;
+	background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(pic2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.navbar{
+	width:1440px;
+	height: 55px;
+	background-color: black;
+	
+}
+.icon{
+	width: 200px;
+	float: left;
+	height: 70px;
+}
+.logo{
+	color: blue;
+	font-size:35px;
+	padding-left: 20px;
+	float: left;
+	padding-top: 10px;
+}
+.menu {
+	width:200px;
+	float:left;
+	height:50px;
+}
+ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ul li {
+	list-style-type: none;
+	padding-left: 150px;
+	margin-top: 20px;
+	font-size: 13px;
+	padding-right: 5px;
+	
+}
+ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}
+ul li a:hover {
+	color: blue;
+}
+ul li.active a{
+	color:blue;
+}
+
+ul li i{
+	padding-top: 150px;
+	padding-left: 1px;
+	padding-right:130px;
+	
+}
+.cont{
+	opacity: 0.4;
+}
+ul li h2{
+	padding-top:10px;
+	color: #fff;
+	padding-bottom: 50px;
+	border: 2px solid blue;
+	background-color:black;
+	padding:10px 15px;
+	margin-bottom:100px;
+	
+}
+.cont:hover{
+	opacity: 1;
+}
