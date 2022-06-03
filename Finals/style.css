@@ -265,7 +265,7 @@ h2 span{
 .card{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
 	transition: 0.3s;
-	width: 40%;
+	width: 100%;
 	height: auto;
 	margin-top: .5rem;
 	padding-top: 4rem;
@@ -369,7 +369,7 @@ h2 span{
 
 
 /* media queries */
-@media(max-width:991px){
+@media(max-width:500px){
 	html{
 		font-size: 55%;
 	}
@@ -389,7 +389,7 @@ h2 span{
 	 }
 }
 
-@media(max-width:450px){
+@media(max-width:500px){
 	html{
 		font-size: 60%;
 	}
