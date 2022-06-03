@@ -294,12 +294,13 @@ h2 span{
 
 .education .box-container .box:hover h4{
 	color: #111;
+	margin-bottom:0;
 }
 
 .education .box-container .box h4{
 	color: #fff;
 	font-size: 20px;
-	margin-bottom: 15%;
+	margin-bottom: 0;
 }
 
 .education .box-container .box p{
