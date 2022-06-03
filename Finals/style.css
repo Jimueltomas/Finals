@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0, padding: 0;
+	box-sizing: border-box;
+	outline: none border: none;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	text transform: capitalize;
+	transition: all .2s linear;
+	line-height: 1.5;
+}
+
+:root{
+	--main-color: #189AB4;
+}
+
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+body{
+	background:#3F4652;
+	padding-left: 30rem;
+}
+
+header{
+	position: fixed;
+	top: 0; left: 0; bottom: 0;
+	background: #222;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+	flex-flow: column;
+	padding: 8rem 2rem;
+	width: 28rem; 
+	text-align: center;
+}
+header .logo{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 3rem;
+	font-weight: bolder;
+}
+header .logo span{
+	text-transform: uppercase;
+	color:var(--main-color);
+	font-size: 3rem;
+}
+
+header .navbar a{
+	display: block;
+	font-size: 2rem;
+	color: #fff;
+	margin:4rem 0;
+}
+
+header .navbar a:hover{
+	letter-spacing: .2rem ;
+	color: var(--main-color);
+}
+
+header .social a{
+	font-size: 1.8rem;
+	color: var(--main-color);
+	 margin: 0.7rem;
+}
+
+header .social a:hover{
+	color: #fff;
+}
+header .navbar h3{
+	color:var(--main-color);
+
+}
+
+#menu-bars{
+	position: fixed;
+	top: 1rem; right: 1rem;
+	z-index: 10000;
+	background: var(--main-color);
+	color: #ffff;
+	border-radius: .5rem;
+	padding: 1rem 1.5rem;
+	font-size: 3rem;
+	cursor: pointer;
+	display: none;
+}
+
+section{
+	min-height: 100vh;
+	padding: 1rem 5%;
+}
+
+.image img{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+}
+
+.content{
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+
+}
+
+
+.content .title{
+	font-size: 25px;
+	color: #111;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.content h3{
+	font-size: 40px;
+	color: #111;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content h3 span{
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+
+.content .position{
+	font-size: 25px;
+	margin-top: 0;
+	color: #fff;
+}
+
+.button{
+	width: 100px;
+	height: 30px;
+	background: #111;
+	color: #fff;
+	cursor: pointer;
+}
+
+.button:hover{
+	background: #D9D9D9;
+	color: #111;
+}
+
+
+h1{
+	font-size: 35px;
+	color: #fff;
+	margin-top: 1px;
+	margin-bottom: 2px;
+}
+
+section .heading span{
+	font-size: 35px;
+	color: var(--main-color);
+	margin-bottom: 3px;
+}
+
+h2 span{
+	color: #111;
+}
+
+
+.row-1 .images img{
+	width: 300px;
+	height: 400px;
+	object-fit: cover;
+	border:  solid #fff;
+	flex: 1 1 25rem;
+	margin-bottom: 1rem;
+	display: inline;
+	
+}
+.row-1 {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2.5rem;
+}
+
+.row-1 .my h2{
+	font-size: 20px;
+	display: inline;
+	flex: 1 1 50rem;
+	color: #fff;
+	align-content: start;
+}
+
+.skills{
+	margin-bottom: 10px ;
+	display: flex;
+}
+
+.skills p {
+	margin-right: 10px;
+	margin-top: 0%;
+	font-size: 20px;
+	color: #111;
+}
+
+
+.skills span{
+	color:#fff;
+	margin-right: 10px;
+}
+
+.skills .container{
+	background: #fff;
+	border-radius: 5rem;
+	height: .7rem;
+	width: 30%;
+	margin-top: 2.5%;
+}
+.skills .containers{
+	background: #fff;
+	border-radius: 5rem;
+	height: .7rem;
+	width: 25%;
+	margin-top: 2.5%;
+}
+
+.box-container{
+	display: flex;
+	font-size: 20px;
+	flex-wrap: wrap;
+	gap: 1rem;
+	padding: 0.5rem 0;
+}
+
+.box-container .box p{
+	color: #000000;
+	flex: 1 1 25rem;
+}
+
+.box-container .box span{
+	color: #fff;
+}
+
+
+
+
+.container{
+	padding: 2px 16px;
+}
+
+
+.education .box-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+.education .box-container .box{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+	flex: 1 1 30rem;
+	padding: 2rem;
+	text-align: center;
+}
+
+.education .box-container .box i{
+	color: #808080;
+	font-size: 30px;
+	margin-top: 10%;
+}
+
+.education .box-container .box:hover{
+	background: var(--main-color);
+	font-size: 40px;
+}
+.education .box-container .box:hover i{
+	color: #111;
+	font-size: 30px;
+}
+
+.education .box-container .box:hover h4{
+	color: #111;
+}
+
+.education .box-container .box h4{
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 15%;
+}
+
+.education .box-container .box p{
+	font-size: 15px;
+	color: var(--main-color);
+	margin-bottom: 0;
+}
+
+.education .box-container .box:hover p{
+	color: #111;
+}
+
+
+.hobbies .box-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	margin-top: 8rem;
+}
+
+.hobbies .box-container .box{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+	flex: 1 1 30rem;
+	padding: 2rem;
+	text-align: center;
+}
+
+.hobbies .box-container .box i{
+	color: #808080;
+	font-size: 30px;
+	margin-top: 20%;
+}
+
+.hobbies .box-container .box:hover{
+	background: var(--main-color);
+	font-size: 50px;
+}
+.hobbies .box-container .box:hover i{
+	color: #111;
+	font-size: 50px;
+}
+
+.hobbies .box-container .box:hover h4{
+	color: #111;
+}
+
+.hobbies .box-container .box h4{
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 20%;
+}
+
+.favorite .box-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	margin-top: 50px;
+
+}
+
+.favorite .box-container .box{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+	flex: 1 1 30rem;
+	padding: 2rem;
+	text-align: center;
+
+}
+
+.favorite .box-container .box i{
+	color: #808080;
+	font-size: 30px;
+	margin-top: 10%;
+}
+
+.favorite .box-container .box:hover{
+	background: var(--main-color);
+	font-size: 30px;
+}
+.favorite .box-container .box:hover i{
+	color: #111;
+	font-size: 50px;
+}
+
+.favorite .box-container .box:hover h4{
+	color: #111;
+}
+
+.favorite .box-container .box h4{
+	color: #fff;
+	font-size: 25px;
+	margin-bottom: 15%;
+}
+
+.favorite .box-container .box p{
+	font-size: 15px;
+	color: var(--main-color);
+}
+
+.favorite .box-container .box:hover p{
+	color: #111;
+}
+
+
+
+
+
+/* media queries */
+@media(max-width:991px){
+	html{
+		font-size: 55%;
+	}
+
+	body{
+		padding: 0;
+	}
+	#menu-bars{
+		display: initial;
+	}
+	 header{
+	 	left: -120% ;
+	 }
+
+	 header.active{
+	 	left: 0% ;
+	 }
+}
+
+@media(max-width:450px){
+	html{
+		font-size: 60%;
+	}
+	header{
+		width: 100%;
+	}
+}
+
+
+
+
